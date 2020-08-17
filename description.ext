@@ -1,0 +1,19 @@
+Author="Task Force Red (Nichols)";
+OnLoadName = "Operation Willing Disaster";
+OnLoadMission = "Tanoa Archipelago; Fiji";
+overviewPicture = "Flip-SF-2.jpg";
+
+enableDebugConsole = 1;
+
+respawn=3;
+respawndelay = 60;
+respawnOnStart = 0;
+respawnDialog = 0;
+DisabledAI = true;
+
+class Header
+{
+	gameType = COOP; // Game type, see 'class' columns in the table below
+	minPlayers = 4; //min # of players the mission supports
+	maxPlayers = 46; //max # of players the mission supports
+};
